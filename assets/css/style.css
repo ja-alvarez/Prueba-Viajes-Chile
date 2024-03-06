@@ -1,4 +1,4 @@
-.card {
+.card2 {
     display: inline-block;
 }
 a.navbar-brand {
@@ -15,4 +15,42 @@ nav {
     color:#fff;
     text-shadow: #000 0.1em 0.1em 0.2em, #000 -0.1em -0.1em 0.2em;
 
+}
+/*
+div.container.cards{
+    margin:0px 0px 0px 0px;
+}   */
+
+
+hr {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+main {
+    background-color: #000;
+}
+
+footer {
+    background-color: #0dcaf0;
+}
+
+main, footer, .card{
+    color: #fff;
+}
+
+.container.card.d-none.d-md-block{
+    background-color: transparent;
+}
+
+div.text-center, div.card2 {
+    background-color: #0dcaf0;
+}
+
+div.card2 {
+    margin: 1% 1%;
 }
