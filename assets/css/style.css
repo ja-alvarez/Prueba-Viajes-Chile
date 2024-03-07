@@ -30,6 +30,7 @@ hr {
 /* Estilos barra de navegación */
 a.navbar-brand {
     color: #fff;
+    font-size: 60px;
     text-shadow: #000 0.1em 0.1em 0.2em, #000 -0.1em -0.1em 0.2em;
 }
 
@@ -43,6 +44,7 @@ nav {
 
 .navbar-nav a {
     color: #fff;
+    font-size: 25px;
     text-shadow: #000 0.1em 0.1em 0.2em, #000 -0.1em -0.1em 0.2em;
 }
 
@@ -55,6 +57,10 @@ nav {
     padding: 3% 0%;
 }
 
+.card-body {
+    padding: 0px;
+}
+
 /* Estilos sección destacados/cards */
 .container.card.d-none.d-md-block {
     background-color: transparent;
@@ -65,9 +71,8 @@ div.card2 {
     background-color: #0dcaf0;
 }
 
-.card-body {
-    /*quienes somos */
-    padding: 0px;
+.card2 {
+height: 100%;
 }
 
 /* Estilos formulario contacto */
