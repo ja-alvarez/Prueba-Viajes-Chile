@@ -1,56 +1,94 @@
-.card2 {
-    display: inline-block;
-}
-a.navbar-brand {
-    color:#fff;
-    text-shadow: #000 0.1em 0.1em 0.2em, #000 -0.1em -0.1em 0.2em;
-}
-nav a img {
-    width: 8%;
-}
-nav {
-    background-color: transparent;
-}
-.navbar-nav a {
-    color:#fff;
-    text-shadow: #000 0.1em 0.1em 0.2em, #000 -0.1em -0.1em 0.2em;
-
-}
-/*
-div.container.cards{
-    margin:0px 0px 0px 0px;
-}   */
-
-
-hr {
-    width: 80%;
-    margin: 0 auto;
+/*Estilos que se aplican en distintas secciones del documento  */
+html {
+    scroll-behavior: smooth;
 }
 
-h2 {
-    text-align: center;
+body {
+    font-family: "Inria Sans", sans-serif;
 }
 
 main {
     background-color: #000;
 }
 
+h2 {
+    text-align: center;
+    padding-top: 3%;
+}
+
+main,
+footer,
+.card {
+    color: #fff;
+}
+
+hr {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Estilos barra de navegación */
+a.navbar-brand {
+    color: #fff;
+    text-shadow: #000 0.1em 0.1em 0.2em, #000 -0.1em -0.1em 0.2em;
+}
+
+nav a img {
+    width: 8%;
+}
+
+nav {
+    background-color: transparent;
+}
+
+.navbar-nav a {
+    color: #fff;
+    text-shadow: #000 0.1em 0.1em 0.2em, #000 -0.1em -0.1em 0.2em;
+}
+
+/*Estilos sección de presentación Quiénes Somos */
+.tarjeta {
+    margin-bottom: 3%;
+}
+
+.iconos {
+    padding: 3% 0%;
+}
+
+/* Estilos sección destacados/cards */
+.container.card.d-none.d-md-block {
+    background-color: transparent;
+}
+
+div.text-center,
+div.card2 {
+    background-color: #0dcaf0;
+}
+
+.card-body {
+    /*quienes somos */
+    padding: 0px;
+}
+
+/* Estilos formulario contacto */
+.formulario {
+    padding: 0% 3%;
+}
+
+.btn {
+    margin-bottom: 4%;
+    background-color: #0dcaf0;
+}
+
+/* Estilos pie de página */
 footer {
     background-color: #0dcaf0;
 }
 
-main, footer, .card{
-    color: #fff;
+footer i {
+    padding-right: 1%;
 }
 
-.container.card.d-none.d-md-block{
-    background-color: transparent;
-}
-
-div.text-center, div.card2 {
-    background-color: #0dcaf0;
-}
-
-div.card2 {
-    margin: 1% 1%;
+footer a {
+    text-decoration: none;
 }
