@@ -27,6 +27,9 @@ hr {
     margin: 0 auto;
 }
 
+
+
+
 /* Estilos barra de navegación */
 a.navbar-brand {
     color: #fff;
@@ -47,6 +50,15 @@ nav {
     font-size: 25px;
     text-shadow: #000 0.1em 0.1em 0.2em, #000 -0.1em -0.1em 0.2em;
 }
+/*
+.navbar-collapse {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    padding-top: 3%;
+    padding-right: 3%;
+} */
 
 /*Estilos sección de presentación Quiénes Somos */
 .tarjeta {

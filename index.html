@@ -37,8 +37,7 @@
         <!-- Barra de navegación -->
         <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#" style="padding-right: 25%; padding-left:5%;"> <img
-                        src="assets/img/viajes.svg"> Viajes Chile</a>
+                <a class="navbar-brand" href="#"> <img src="assets/img/viajes.svg"> Viajes Chile</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -79,9 +78,9 @@
     </header>
     <main>
         <!-- Sección de presentación -->
-        <section>
+        <section id="quienessomos">
             <div class="container card d-none d-md-block">
-                <h2 id="quienessomos">¿QUIÉNES SOMOS?</h2>
+                <h2>¿QUIÉNES SOMOS?</h2>
                 <hr style="width: 80%; margin: 0 auto;"> <br>
                 <div class="row card-body">
                     <div class="col-md-12 col-lg-4 tarjeta">
@@ -124,56 +123,58 @@
             </div>
         </section>
         <!-- Sección destacados-->
-        <h2 id="destacados">DESTACADOS</h2>
-        <hr> <br>
-        <div class="container cards" style="display: flex; margin: auto;">
-            <div class="row g-3" id="cards">
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="card2">
-                        <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
-                        <div class="card-body p-3">
-                            <h5 class="card-title">Lagos y ríos</h5>
-                            <p class="card-text">Conoce los lagos más grande de Chile, con aguas de un azul
-                                majestuoso y rodeados de montañas. ¡Joyas a lo largo de todo Chile!</p>
+        <section id="destacados">
+            <h2>DESTACADOS</h2>
+            <hr> <br>
+            <div class="container cards" style="display: flex; margin: auto;">
+                <div class="row g-3" id="cards">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card2">
+                            <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body p-3">
+                                <h5 class="card-title">Lagos y ríos</h5>
+                                <p class="card-text">Conoce los lagos más grande de Chile, con aguas de un azul
+                                    majestuoso y rodeados de montañas. ¡Joyas a lo largo de todo Chile!</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="card2">
-                        <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body p-3">
-                            <h5 class="card-title">Cordilleras y montañas</h5>
-                            <p class="card-text">Explora las majestuosas montañas que se extienden a lo largo de
-                                Chile, ofreciendo vistas panorámicas y emocionantes rutas de senderismo.</p>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card2">
+                            <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body p-3">
+                                <h5 class="card-title">Cordilleras y montañas</h5>
+                                <p class="card-text">Explora las majestuosas montañas que se extienden a lo largo de
+                                    Chile, ofreciendo vistas panorámicas y emocionantes rutas de senderismo.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="card2">
-                        <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
-                        <div class="card-body p-3">
-                            <h5 class="card-title">Desierto de Atacama</h5>
-                            <p class="card-text">Adéntrate en el lugar más árido del mundo, donde encontrarás
-                                paisajes surrealistas, salares y cielos estrellados impresionantes. </p>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card2">
+                            <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body p-3">
+                                <h5 class="card-title">Desierto de Atacama</h5>
+                                <p class="card-text">Adéntrate en el lugar más árido del mundo, donde encontrarás
+                                    paisajes surrealistas, salares y cielos estrellados impresionantes. </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-12  col-md-6 col-lg-3">
-                    <div class="card2">
-                        <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
-                        <div class="card-body p-3">
-                            <h5 class="card-title">Bosque Valdiviano</h5>
-                            <p class="card-text">Sumérgete en la selva valdiviana, un bosque siempre verde con
-                                múltiples estratos y una biodiversidad única. Descubre el alerce, uno de los árboles
-                                más longevos del planeta.
-                            </p>
+                    <div class="col-12  col-md-6 col-lg-3">
+                        <div class="card2">
+                            <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body p-3">
+                                <h5 class="card-title">Bosque Valdiviano</h5>
+                                <p class="card-text">Sumérgete en la selva valdiviana, un bosque siempre verde con
+                                    múltiples estratos y una biodiversidad única. Descubre el alerce, uno de los árboles
+                                    más longevos del planeta.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <section>
-            <h2 id="contacto" class="contacto">CONTACTO</h2>
+        </section>
+        <section id="contacto">
+            <h2 class="contacto">CONTACTO</h2>
             <hr>
             <!-- Formulario de Contacto -->
             <div class="formulario">
