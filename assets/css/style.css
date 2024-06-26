@@ -1,10 +1,10 @@
-/*Estilos que se aplican en distintas secciones del documento  */
 html {
     scroll-behavior: smooth;
 }
 
 body {
     font-family: "Inria Sans", sans-serif;
+    overflow-x: hidden;
 }
 
 main {
@@ -27,15 +27,31 @@ hr {
     margin: 0 auto;
 }
 
+.container.card.d-none.d-md-block {
+    background-color: transparent;
+    margin: 0 auto; 
+    padding: 0 15px;
+}
+
 /* Estilos barra de navegación */
 a.navbar-brand {
     color: #fff;
-    font-size: 60px;
+    font-size: 4vw;
     text-shadow: #000 0.1em 0.1em 0.2em, #000 -0.1em -0.1em 0.2em;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
 }
 
-nav a img {
-    width: 8%;
+a.navbar-brand img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.container-fluid {
+    padding-right: 15px; 
+    padding-left: 15px;
 }
 
 nav {
@@ -66,6 +82,13 @@ nav {
     background-color: transparent;
 }
 
+.container.cards {
+    display: flex;
+    flex-wrap: wrap; 
+    margin: 0 auto; 
+    padding: 0 15px;
+}
+
 div.text-center,
 div.card2 {
     background-color: #0dcaf0;
@@ -88,6 +111,7 @@ div.card2 {
 /* Estilos pie de página */
 footer {
     background-color: #0dcaf0;
+    padding: 0 15px;
 }
 
 footer i {
@@ -96,4 +120,9 @@ footer i {
 
 footer a {
     text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover {
+    color: #ccc;
 }
